@@ -1,0 +1,4 @@
+:name "cowboy_debugging"
+:node-sname "cowboy_debugging_edts"
+:lib-dirs '("deps")
+:app-include-dirs '("include")

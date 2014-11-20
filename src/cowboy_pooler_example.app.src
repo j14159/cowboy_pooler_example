@@ -1,0 +1,14 @@
+%% -*- mode: erlang -*-
+{application, cowboy_pooler_example,
+ [
+  {description, "the cowboy_pooler_example project"},
+  {vsn, "0.0.1"},
+  {registered, []},
+  {applications, [
+                  kernel,
+                  stdlib
+                 ]},
+  {mod, { cowboy_pooler_example_app, []}},
+  {env, []}
+ ]}.
+%% vim: set filetype=erlang tabstop=2

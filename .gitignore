@@ -1,0 +1,8 @@
+ebin/*
+*.beam
+deps/*
+rel/cowboy_debugging
+.concrete/DEV_MODE
+deps.plt
+.eunit
+.vagrant
