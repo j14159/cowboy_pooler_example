@@ -1,4 +1,4 @@
--module(cowboy_debugging_sup).
+-module(cowboy_pooler_example_sup).
 
 -behaviour(supervisor).
 

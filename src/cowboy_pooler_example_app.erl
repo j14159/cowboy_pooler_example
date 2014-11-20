@@ -15,7 +15,7 @@ start(_StartType, _StartArgs) ->
     cowboy:start_http(http, ListenerCount, [{port, Port}], [{env, [{dispatch, Dispatch}]}]),
     lager:start(),
 
-    cowboy_debugging_sup:start_link().
+    cowboy_pooler_example_sup:start_link().
 
 stop(_State) ->
     ok.
